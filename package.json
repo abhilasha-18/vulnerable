@@ -1,0 +1,14 @@
+{
+  "name": "vulnerable",
+  "version": "1.0.0",
+  "description": "Demo project with outdated packages for Snyk vulnerability testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "jquery": "2.2.4",
+    "lodash": "3.10.1",
+    "express": "4.16.0"
+  }
+}
